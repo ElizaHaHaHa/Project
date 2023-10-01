@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+.service-v{
+    text-align: center;
+    font-size: 32px;
+    padding: 20px 0;
+}
+
+.container{
+    width: 900px;
+    margin: 20px auto;
+}
+
+header {
+    align-items: center;
+    background-color: sandybrown;
+    display: flex;
+    justify-content: center;
+    height: 120px;
+    position: relative;
+    font-size: 30px;
+    color: white;
+    font-style: normal;
+    border: 2px solid grey;
+    margin-bottom: 10px;
+}
+.company-img {
+    display: block;
+    background-color: grey;
+    border: 2px solid grey;
+    height: 400px;
+    position: relative;
+
+}
+.company-img::after {
+    content: "COMPANY IMAGE";
+    font-size: 15px;
+    position: absolute;
+    color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    display:grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 40px;
+    row-gap: 60px;
+    margin-left: 60px;
+}
+
+.service{
+    display: flex;
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: aliceblue;
+    border: 2px solid grey;
+    width: 180px;
+    height: 220px;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 20px;
+    border: 2px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: darkblue;
+    height: 120px;
+}
+
+
+
