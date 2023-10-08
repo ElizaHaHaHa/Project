@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 2px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+.contact-form {
+    background-color: #ffffff;
+    padding: 50px;
+    border: 10px solid;
+    border-color: grey;
+
+    /*border-radius: 10px;*/
+    box-shadow:
+            6.1px 4.5px 3.6px rgba(0, 0, 0, 0.019),
+            16.8px 12.5px 10px rgba(0, 0, 0, 0.031),
+            40.4px 30.1px 24.1px rgba(0, 0, 0, 0.043),
+            134px 100px 80px rgba(0, 0, 0, 0.07)
+;
+    width: 80%;
+    max-width: 700px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    position: relative;
+}
+.additional-text {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    font-size: 14px;
+    color: #777;
+}
+
+label {
+    display: block;
+    margin-bottom: 1px;
+}
+
+select,
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+
+    background-color: black;
+    color: grey;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: black;
+    border-radius: 12rem;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.input-container {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color: black;
+    border-radius: 12rem;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+
+}
+
+button:hover {
+    background-color: cornflowerblue;
+    border-radius: 12px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+.email{
+    float: left;
+    margin-right: 30px;
+}
+.phone{
+    margin-right: auto;
+}
